@@ -4,35 +4,35 @@ Uma aplicação web Full Stack simples para demonstrar um CRUD (Create, Read, Up
 
 ✨ Funcionalidades
 
-Listar todos os cursos cadastrados.
-
-Adicionar um novo curso através de um formulário.
-
-Editar um curso existente (preenchendo o formulário com os dados do curso).
-
-Excluir um curso da lista.
-
-Front-end totalmente responsivo com Bootstrap 5.
+  Listar todos os cursos cadastrados.
+  
+  Adicionar um novo curso através de um formulário.
+  
+  Editar um curso existente (preenchendo o formulário com os dados do curso).
+  
+  Excluir um curso da lista.
+  
+  Front-end totalmente responsivo com Bootstrap 5.
 
 🛠️ Tecnologias Utilizadas
 
-Back-end (API REST)
+  Back-end (API REST)
+  
+  Java 21 
+  
+  Spring Boot 3
+  
+  Spring Data JPA: Para persistência de dados.
+  
+  Maven: Gerenciador de dependências.
+  
+  MySQL 8: Banco de dados relacional (configurado no application.properties).
 
-Java 17 (ou superior)
-
-Spring Boot 3
-
-Spring Data JPA: Para persistência de dados.
-
-Maven: Gerenciador de dependências.
-
-MySQL 8: Banco de dados relacional (configurado no application.properties).
-
-Front-end (Cliente Web)
-
-HTML5
-
-Bootstrap 5: Para componentização e layout responsivo.
+  Front-end (Cliente Web)
+  
+  HTML5
+  
+  Bootstrap 5: Para componentização e layout responsivo.
 
 JavaScript (ES6+): Para manipulação do DOM e lógica da aplicação.
 
