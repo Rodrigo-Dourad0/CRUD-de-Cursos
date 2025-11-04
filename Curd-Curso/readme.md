@@ -1,0 +1,89 @@
+🚀 CRUD de Cursos - Aplicação Full Stack
+
+Uma aplicação web Full Stack simples para demonstrar um CRUD (Create, Read, Update, Delete) de Cursos. O back-end é uma API REST feita em Java com Spring Boot e o front-end é uma página estática consumindo essa API com Bootstrap e JavaScript puro.
+
+✨ Funcionalidades
+
+Listar todos os cursos cadastrados.
+
+Adicionar um novo curso através de um formulário.
+
+Editar um curso existente (preenchendo o formulário com os dados do curso).
+
+Excluir um curso da lista.
+
+Front-end totalmente responsivo com Bootstrap 5.
+
+🛠️ Tecnologias Utilizadas
+
+Back-end (API REST)
+
+Java 17 (ou superior)
+
+Spring Boot 3
+
+Spring Data JPA: Para persistência de dados.
+
+Maven: Gerenciador de dependências.
+
+H2 Database (Em memória): Banco de dados padrão para desenvolvimento.
+
+(Nota: Pode ser facilmente configurado para outro banco, como PostgreSQL ou MySQL, no arquivo application.properties).
+
+Front-end (Cliente Web)
+
+HTML5
+
+Bootstrap 5: Para componentização e layout responsivo.
+
+JavaScript (ES6+): Para manipulação do DOM e lógica da aplicação.
+
+Fetch API: Para realizar as requisições HTTP (AJAX) para o back-end.
+
+CSS3: Mínimo para ajustes finos.
+
+📡 Endpoints da API
+
+A API RESTful está disponível em http://localhost:8080/api/cursos e segue os seguintes padrões:
+
+Verbo
+
+Rota
+
+Descrição
+
+GET
+
+/
+
+Lista todos os cursos cadastrados.
+
+GET
+
+/{id}
+
+Busca um único curso pelo seu ID.
+
+GET
+
+/buscar
+
+Busca cursos pelo nome (Ex: /buscar?nome=java).
+
+POST
+
+/
+
+Cria um novo curso.
+
+PUT
+
+/{id}
+
+Atualiza um curso existente.
+
+DELETE
+
+/{id}
+
+Exclui um curso pelo seu ID.

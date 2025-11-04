@@ -1,0 +1,10 @@
+br\com\ifba\curso\service\CursoIService.class
+br\com\ifba\infrastructure\util\StringUtil.class
+br\com\ifba\Prg03springApplication.class
+br\com\ifba\curso\service\CursoService.class
+br\com\ifba\curso\controller\CursoIController.class
+br\com\ifba\curso\view\CursoTela.class
+br\com\ifba\infrastructure\entity\PersistenceEntity.class
+br\com\ifba\curso\controller\CursoController.class
+br\com\ifba\curso\entity\Curso.class
+br\com\ifba\curso\repository\CursoRepository.class
